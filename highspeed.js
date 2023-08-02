@@ -12,7 +12,7 @@ function calculateEMI(){
   if(loanAmt>205000){
     interestRtPM = 0.01138
   } else {
-    interestRtPM = 0.0094
+    interestRtPM = 0.0099
   }
 
   console.log(interestRtPM)
