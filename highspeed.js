@@ -5,14 +5,14 @@ function calculateEMI(){
 
 
   
-  var docuCharges = 8000
+  var docuCharges = 10000
   var loanAmt = vehiclePrice+docuCharges-DP
   var interestRtPM = 0
 
-  if(loanAmt>210000){
+  if(loanAmt>220000){
     interestRtPM = 0.01138
   } else {
-    interestRtPM = 0.0099
+    interestRtPM = 0.010083
   }
 
   console.log(interestRtPM)
