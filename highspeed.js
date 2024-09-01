@@ -1,11 +1,11 @@
 function calculateEMI(){
   var DP = parseInt(document.getElementById("downpayment").value)
-  var vehiclePrice= 265150
+  var vehiclePrice= 265420
   var tenureM = parseInt(document.getElementById("tenure").value)
 
 
   
-  var docuCharges = 10000
+  var docuCharges = 8000
   var loanAmt = vehiclePrice+docuCharges-DP
   var interestRtPM = 0
 
